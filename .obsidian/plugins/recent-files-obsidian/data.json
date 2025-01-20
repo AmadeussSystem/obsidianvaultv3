@@ -3,6 +3,14 @@
     {
       "basename": "00 Homepage",
       "path": "00 - Maps of Content/00 Homepage.md"
+    },
+    {
+      "basename": "Placeholder",
+      "path": "02 - Areas/Placeholder.md"
+    },
+    {
+      "basename": "Placeholder",
+      "path": "01 - Projects/Placeholder.md"
     }
   ],
   "omittedPaths": [],
