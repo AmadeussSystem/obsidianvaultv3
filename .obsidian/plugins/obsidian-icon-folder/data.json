@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "BoBxsCategory",
-      "BoBxsHand",
-      "BoBxsHappyBeaming",
-      "BoBxsCalendarEvent",
-      "BoBxCalendarStar"
+      "BoBxObjectsVerticalCenter",
+      "BoBxsBrain",
+      "BoBxExtension",
+      "LiBrain",
+      "LiMap"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -106,5 +106,24 @@
     "debugMode": false,
     "lucideIconPackType": "native",
     "useInternalPlugins": false
-  }
+  },
+  "02 - Meta Learning": "BoBxlMeta",
+  "02 - Meta Learning/01 - Why": "BoBxQuestionMark",
+  "02 - Meta Learning/02 - What": "LiAlignJustify",
+  "02 - Meta Learning/03 - How": "BoBxlRedbubble",
+  "08 - Entities/01 - People & Networks": "🧔",
+  "08 - Entities/02 - External Resources": "LiExternalLink",
+  "07 - Meetings/01 - Mentorship": "🔥",
+  "07 - Meetings/02 - Collaborative Learning": "BoBxsGroup",
+  "07 - Meetings/03 - Actionable Feedback": "LiFileEdit",
+  "06 - Periodic/01 - Weekly Check-ins": "BoBxCalendarWeek",
+  "06 - Periodic/02 - Monthly Review": "BoBxCalendarEvent",
+  "06 - Periodic/03 - Quarterly Adjustments": "LiCalendarHeart",
+  "05 - Fleeting/01 - Short Term Learning": "BoBxObjectsHorizontalRight",
+  "05 - Fleeting/02 - Temporary Resources": "LiPaperclip",
+  "04 - Permanent/02 - Roadmap Mastery": "LiMap",
+  "04 - Permanent/01 - Core Knowledge": "LiBrain",
+  "03 - Resources/03 - External Input": "BoBxExtension",
+  "03 - Resources/02 - Knowledge Repositories": "BoBxsBrain",
+  "03 - Resources/01 - Learning  Materials": "BoBxObjectsVerticalCenter"
 }

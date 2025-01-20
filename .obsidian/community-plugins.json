@@ -37,5 +37,6 @@
   "obsidian-meta-bind-plugin",
   "metaedit",
   "js-engine",
-  "ics"
+  "ics",
+  "obsidian-auto-hide"
 ]

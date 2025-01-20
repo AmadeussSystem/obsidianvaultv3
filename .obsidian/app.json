@@ -1,6 +1,6 @@
 {
   "showInlineTitle": false,
-  "autoPairMarkdown": false,
+  "autoPairMarkdown": true,
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "99 - Meta/attachments",
   "promptDelete": false,
@@ -9,9 +9,9 @@
   ],
   "showFrontmatter": true,
   "propertiesInDocument": "visible",
-  "autoPairBrackets": false,
+  "autoPairBrackets": true,
   "readableLineLength": true,
-  "spellcheck": true,
+  "spellcheck": false,
   "tabSize": 2,
   "useTab": false
 }

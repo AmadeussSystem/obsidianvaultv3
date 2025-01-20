@@ -50,7 +50,7 @@ customization. Just swap out the color variable names in the prefix groups.
   --active-contrast-amount: 30%;
 
   /* Darker Versions of Bright Colors for Light Theme */
-  --yellow: color-mix(in srgb, #ffd85e 90%, var(--shadow));
+  --hot-red: color-mix(in srgb, #ffd85e 90%, var(--shadow));
   --lime: color-mix(in srgb, #97e768 90%, var(--shadow));
   --mint: color-mix(in srgb, #52eea3 85%, var(--shadow));
   --cyan: color-mix(in srgb, #51e1e9 85%, var(--shadow));
@@ -588,45 +588,45 @@ these to suit your own folder structure and vault theme!
 
 /* ------------------------------- 08 Prefix -------------------------------- */
 .nav-folder-title[data-path^="08"] {
-  color: var(--orange);
+  color: var(--yellow);
   --nav-item-color-hover: color-mix(in srgb,
-      var(--orange) var(--fg-contrast-amount),
+      var(--yellow) var(--fg-contrast-amount),
       var(--contrast-color));
   --nav-item-background-hover: color-mix(in srgb,
-      var(--orange) var(--bg-contrast-amount),
+      var(--yellow) var(--bg-contrast-amount),
       transparent);
   --background-modifier-border-focus: color-mix(in srgb,
-      var(--orange) 40%,
+      var(--yellow) 40%,
       transparent);
   --nav-collapse-icon-color: color-mix(in srgb,
-      var(--orange) 60%,
+      var(--yellow) 60%,
       transparent);
 }
 
 .nav-folder-title[data-path^="07"]:hover {
   --nav-collapse-icon-color: color-mix(in srgb,
-      var(--orange) 60%,
+      var(--yellow) 60%,
       var(--contrast-color));
 }
 
 .tree-item-children .nav-folder:has(.nav-folder-title[data-path^="07"]) {
   --nav-indentation-guide-color: color-mix(in srgb,
-      var(--orange) var(--medium-contrast-amount),
+      var(--yellow) var(--medium-contrast-amount),
       transparent);
 }
 
 .tree-item-children .nav-folder:has(.nav-folder-title[data-path^="07"]) .nav-file-title {
   color: color-mix(in srgb,
-      var(--orange) var(--medium-contrast-amount),
+      var(--yellow) var(--medium-contrast-amount),
       var(--default-text-color));
   --nav-item-background-hover: color-mix(in srgb,
-      color-mix(in srgb, var(--orange) 50%, var(--highlight)) var(--bg-contrast-amount),
+      color-mix(in srgb, var(--yellow) 50%, var(--highlight)) var(--bg-contrast-amount),
       transparent);
   --background-modifier-border-focus: color-mix(in srgb,
-      var(--orange) 40%,
+      var(--yellow) 40%,
       transparent);
   --nav-item-background-active: color-mix(in srgb,
-      var(--orange) var(--active-contrast-amount),
+      var(--yellow) var(--active-contrast-amount),
       transparent);
 }
 

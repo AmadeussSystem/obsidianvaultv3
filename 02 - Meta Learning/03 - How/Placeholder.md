@@ -1,0 +1,5 @@
+Should contains several questions 
+ - BenchMarking - A default way how other people learn something like is it something taught in the school/Uni like MIT ,Harvard , Yale try looking at their curriculum used by them.
+ - Emphasize-Exclude Method - Once you find a default curriculum you can consider making modification by generally making a guess of important topic and if by your current standing you can't judge the important topic better stick to plan according to the benchmarks until you learn a bit more. This helps us by delays or omit part of curriculum that doesn't align with your current goal
+ - 10% rule - spend arround 10 percent of the total expected learning time into research prior to starting , this percent will decrease as the project size grows 
+ - Diminishing returns and marginal benefits - Continue research about obsticles and opportunity that aren't clear in the beggining 
