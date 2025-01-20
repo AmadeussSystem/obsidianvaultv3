@@ -1,0 +1,1317 @@
+/*------------------------------------------------------------------------------
+              Notebook Background Color Schemes by CyanVoxel v2.2.3
+
+These a few CSS classes that mimic a few of my real-world pages and pen colors.
+Go ahead and try it out! You can change or add new color variables or entire new
+classes and combinations. Inside Obsidian, apply a page class with an optional
+pen color class to see the effects. Add the recolor-images class to recolor
+the images in your notes, too!
+
+Website used to generate Color Filters:
+https://angel-rs.github.io/css-color-filter-generator
+                
+------------------------------------------------------------------------------*/
+
+/* Global Variables */
+:root {
+  /* Base Pen Colors */
+  --pen-white: #edf1fc;
+  --pen-gray: #5f5d58;
+  --pen-black: #26241f;
+  --pen-red: #e14a49;
+  --pen-green: #15b64f;
+  --pen-blue: #3f76ed;
+  --pen-light-blue: #54b6f8;
+  --pen-purple: #9b4ff0;
+  --pen-orange: #ff6f00;
+  --pen-pink: #f50057;
+  --pen-teal: #00897b;
+  --pen-yellow: #ffeb3b;
+  --pen-brown: #6d4c41;
+
+  --neutral-pen-black: #272727;
+  --neutral-pen-black-trans: #27272722;
+
+  /* Page Colors */
+  --page-white: #ffffff;
+  --page-manila: #f3deaf;
+  --page-blue: #3f76ed;
+  --page-pastel-yellow: #fff9c4;
+  --page-pastel-pink: #f8bbd0;
+  --page-pastel-green: #c8e6c9;
+  --page-pastel-blue: #bbdefb;
+  --page-pastel-lilac: #e4b8f5;
+  --page-pastel-rose: #f5b8cc;
+  --page-pastel-mint: #b8f5d1;
+  --page-pastel-sky: #b8d7f5;
+  --page-pastel-lemon: #f5f5b8;
+  --page-pastel-coral: #f5b8a4;
+  --page-pastel-lavender: #d5b8f5;
+  --page-pastel-seafoam: #b8f5e1;
+  --page-pastel-apricot: #f5c5b8;
+  --page-pastel-peach: #f5cdb8;
+  --page-pastel-tea-green: #ccf5b8;
+  --page-pastel-periwinkle: #b8c3f5;
+  --page-pastel-cotton-candy: #f5b8e8;
+  --page-pastel-banana: #f5e4b8;
+  --page-pastel-cherry-blossom: #f5b8da;
+  --page-pastel-aqua: #b8f5f2;
+  --page-pastel-plum: #e5b8f5;
+  --page-pastel-papaya: #f5c0b8;
+  --page-pastel-almond: #f5dcb8;
+  --page-pastel-sunflower: #f5e8b8;
+  --page-pastel-honeydew: #e5f5b8;
+  --page-pastel-moonstone: #b8e4f5;
+  --page-pastel-amber: #f5cbb8;
+  --page-pastel-mauve: #f5b8cf;
+  --page-pastel-cyan: #b8f0f5;
+  --page-pastel-cream: #f5e8d4;
+  --page-pastel-jade: #b8f5cc;
+  --page-pastel-caramel: #f5dab8;
+  --page-pastel-salmon: #f5b8a6;
+  --page-pastel-magenta: #f5b8f1;
+  --page-pastel-denim: #b8bff5;
+  --page-pastel-sand: #f5e2b8;
+  --page-pastel-rust: #f5b8ba;
+  --page-pastel-lime: #d4f5b8;
+  --page-pastel-indigo: #b8a9f5;
+  --page-pastel-grape: #c7b8f5;
+  --page-pastel-cerulean: #b8dff5;
+  --page-pastel-turquoise: #b8f5e8;
+  --page-pastel-powder-blue: #d4e4f5;
+  --page-pastel-forest: #b8f5b9;
+  --page-pastel-blush: #f5bac9;
+  --page-pastel-olive: #d4f5b8;
+  --page-pastel-charcoal: #b8b8b8;
+  --page-pastel-beige: #f5e4c0;
+  --page-pastel-citrus: #f5dcb8;
+  --page-pastel-slate: #c4d4f5;
+  --page-pastel-clay: #f5c4b8;
+  --page-pastel-cloud: #e8f0f5;
+
+  --grid-size: 32px;
+}
+
+/* Recolors images on the page with the current accent color. */
+.recolor-images img {
+  filter: var(--image-effect);
+}
+
+/* ---------------------------- Page Backgrounds ---------------------------- */
+/* All Pages */
+.page-manila,
+.page-white,
+.page-blueprint,
+.page-pastel-yellow,
+.page-pastel-pink,
+.page-pastel-green,
+.page-pastel-blue,
+.page-pastel-lilac,
+.page-pastel-rose,
+.page-pastel-mint,
+.page-pastel-sky,
+.page-pastel-lemon,
+.page-pastel-coral,
+.page-pastel-lavender,
+.page-pastel-seafoam,
+.page-pastel-apricot,
+.page-pastel-peach,
+.page-pastel-tea-green,
+.page-pastel-periwinkle,
+.page-pastel-cotton-candy,
+.page-pastel-banana,
+.page-pastel-cherry-blossom,
+.page-pastel-aqua,
+.page-pastel-plum,
+.page-pastel-papaya,
+.page-pastel-almond,
+.page-pastel-sunflower,
+.page-pastel-honeydew,
+.page-pastel-moonstone,
+.page-pastel-amber,
+.page-pastel-mauve,
+.page-pastel-cyan,
+.page-pastel-cream,
+.page-pastel-jade,
+.page-pastel-caramel,
+.page-pastel-salmon,
+.page-pastel-magenta,
+.page-pastel-denim,
+.page-pastel-sand,
+.page-pastel-rust,
+.page-pastel-lime,
+.page-pastel-indigo,
+.page-pastel-grape,
+.page-pastel-cerulean,
+.page-pastel-turquoise,
+.page-pastel-powder-blue,
+.page-pastel-forest,
+.page-pastel-blush,
+.page-pastel-olive,
+.page-pastel-charcoal,
+.page-pastel-beige,
+.page-pastel-citrus,
+.page-pastel-slate,
+.page-pastel-clay,
+.page-pastel-cloud {
+  --text-normal: var(--accent-color);
+  --text-muted: var(--accent-color);
+  --text-faint: var(--accent-color-trans);
+  --h1-color: var(--accent-color);
+  --h2-color: var(--accent-color);
+  --h3-color: var(--accent-color);
+  --h4-color: var(--accent-color);
+  --h5-color: var(--accent-color);
+  --h6-color: var(--accent-color);
+  --link-color: var(--pen-blue);
+  --link-color-hover: var(--pen-light-blue);
+  --link-unresolved-color: var(--pen-red);
+
+  --hr-color: var(--accent-color);
+  --blockquote-border-color: var(--accent-color);
+  --embed-border-left: 2px solid var(--accent-color);
+  --collapse-icon-color-collapsed: var(--accent-color);
+  --checkbox-color: var(--accent-color);
+  --checkbox-marker-color: var(--page-color);
+  --checkbox-color-hover: var(--accent-color-trans);
+  --checkbox-border-color: var(--accent-color);
+  --checklist-done-color: var(--accent-color);
+  --list-marker-color: var(--accent-color);
+
+  --interactive-accent: var(--accent-color);
+  --metadata-label-text-color: var(--accent-color);
+  --metadata-input-text-color: var(--accent-color);
+  --tag-color: var(--accent-color);
+  --tag-background: var(--accent-color-trans);
+  --pill-cover-hover: color-mix(in srgb, var(--accent-color) 60%, transparent);
+  --background-modifier-border-focus: var(--accent-color);
+  --background-modifier-border: var(--accent-color-trans);
+  --background-modifier-hover: color-mix(
+    in srgb,
+    var(--accent-color) 60%,
+    transparent
+  );
+
+  color: var(--accent-color);
+  background-color: var(--page-color);
+  font-weight: bold;
+}
+
+/* ----------------------- Manila/Tan Page Background ----------------------- */
+/* Defaults to Black Pen */
+.page-manila {
+  --page-color: var(--page-manila);
+  --accent-color: var(--pen-black);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(14%) sepia(19%)
+    saturate(296%) hue-rotate(5deg) brightness(90%) contrast(96%);
+  color-scheme: light;
+}
+.embed-manila img {
+  background-color: var(--page-manila);
+}
+
+/* --------------------------- White Page Background ------------------------ */
+/* Defaults to Black Pen */
+.page-white {
+  --page-color: var(--page-white);
+  --accent-color: var(--neutral-pen-black);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(14%) sepia(19%)
+    saturate(296%) hue-rotate(5deg) brightness(90%) contrast(96%);
+  color-scheme: light;
+}
+.embed-white img {
+  background-color: var(--page-white);
+}
+
+/* -------------------------- Blueprint Styled Page ------------------------- */
+/* Defaults to White Pen */
+.page-blueprint {
+  --page-color: var(--page-blue);
+  --accent-color: var(--pen-white);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(89%) sepia(1%)
+    saturate(2714%) hue-rotate(196deg) brightness(107%) contrast(98%);
+  color-scheme: dark;
+
+  --link-color: color-mix(in srgb, var(--pen-light-blue) 60%, var(--pen-white));
+  --link-color-hover: color-mix(
+    in srgb,
+    var(--pen-light-blue) 20%,
+    var(--pen-white)
+  );
+}
+.embed-blueprint img {
+  background-color: var(--page-blue);
+}
+
+/* -------------------------- Pastel Styled Pages ------------------------- */
+.page-pastel-yellow {
+  --page-color: var(--page-pastel-yellow);
+  --accent-color: var(--pen-yellow);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(90%) sepia(100%)
+    saturate(1100%) hue-rotate(42deg) brightness(100%) contrast(100%);
+  color-scheme: light;
+}
+
+.page-pastel-pink {
+  --page-color: var(--page-pastel-pink);
+  --accent-color: var(--pen-pink);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(43%) sepia(77%)
+    saturate(500%) hue-rotate(340deg) brightness(98%) contrast(92%);
+  color-scheme: light;
+}
+
+.page-pastel-green {
+  --page-color: var(--page-pastel-green);
+  --accent-color: var(--pen-teal);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(48%) sepia(35%)
+    saturate(1900%) hue-rotate(140deg) brightness(96%) contrast(85%);
+  color-scheme: light;
+}
+
+.page-pastel-blue {
+  --page-color: var(--page-pastel-blue);
+  --accent-color: var(--pen-blue);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(36%) sepia(95%)
+    saturate(945%) hue-rotate(199deg) brightness(95%) contrast(95%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Lilac Page -------------------------- */
+.page-pastel-lilac {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  --page-color: var(--page-pastel-lilac);
+  --accent-color: var(--pen-purple);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(64%) sepia(47%)
+    saturate(550%) hue-rotate(250deg) brightness(92%) contrast(90%);
+  color-scheme: light;
+}
+/* -------------------------- Pastel Rose Page -------------------------- */
+.page-pastel-rose {
+  --page-color: var(--page-pastel-rose);
+  --accent-color: var(--pen-pink);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(44%) sepia(80%)
+    saturate(950%) hue-rotate(330deg) brightness(96%) contrast(89%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Mint Page -------------------------- */
+.page-pastel-mint {
+  --page-color: var(--page-pastel-mint);
+  --accent-color: var(--pen-teal);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(50%) sepia(25%)
+    saturate(1400%) hue-rotate(150deg) brightness(95%) contrast(85%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Sky Page -------------------------- */
+.page-pastel-sky {
+  --page-color: var(--page-pastel-sky);
+  --accent-color: var(--pen-blue);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(36%) sepia(30%)
+    saturate(900%) hue-rotate(200deg) brightness(90%) contrast(80%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Lemon Page -------------------------- */
+.page-pastel-lemon {
+  --page-color: var(--page-pastel-lemon);
+  --accent-color: var(--pen-yellow);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(85%) sepia(20%)
+    saturate(600%) hue-rotate(50deg) brightness(100%) contrast(95%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Coral Page -------------------------- */
+.page-pastel-coral {
+  --page-color: var(--page-pastel-coral);
+  --accent-color: var(--pen-orange);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(55%) sepia(30%)
+    saturate(1100%) hue-rotate(20deg) brightness(97%) contrast(85%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Lavender Page -------------------------- */
+.page-pastel-lavender {
+  --page-color: var(--page-pastel-lavender);
+  --accent-color: var(--pen-purple);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(70%) sepia(50%)
+    saturate(600%) hue-rotate(280deg) brightness(92%) contrast(88%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Seafoam Page -------------------------- */
+.page-pastel-seafoam {
+  --page-color: var(--page-pastel-seafoam);
+  --accent-color: var(--pen-teal);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(52%) sepia(32%)
+    saturate(800%) hue-rotate(160deg) brightness(95%) contrast(85%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Apricot Page -------------------------- */
+.page-pastel-apricot {
+  --page-color: var(--page-pastel-apricot);
+  --accent-color: var(--pen-orange);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(58%) sepia(36%)
+    saturate(700%) hue-rotate(10deg) brightness(92%) contrast(85%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Peach Page -------------------------- */
+.page-pastel-peach {
+  --page-color: var(--page-pastel-peach);
+  --accent-color: var(--pen-orange);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(64%) sepia(38%)
+    saturate(800%) hue-rotate(15deg) brightness(95%) contrast(85%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Tea Green Page -------------------------- */
+.page-pastel-tea-green {
+  --page-color: var(--page-pastel-tea-green);
+  --accent-color: var(--pen-green);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(75%) sepia(30%)
+    saturate(800%) hue-rotate(100deg) brightness(92%) contrast(88%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Periwinkle Page -------------------------- */
+.page-pastel-periwinkle {
+  --page-color: var(--page-pastel-periwinkle);
+  --accent-color: var(--pen-blue);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(50%) sepia(40%)
+    saturate(750%) hue-rotate(210deg) brightness(92%) contrast(80%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Cotton Candy Page -------------------------- */
+.page-pastel-cotton-candy {
+  --page-color: var(--page-pastel-cotton-candy);
+  --accent-color: var(--pen-pink);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(62%) sepia(50%)
+    saturate(850%) hue-rotate(320deg) brightness(92%) contrast(85%);
+  color-scheme: light;
+}
+/* -------------------------- Pastel Banana Page -------------------------- */
+.page-pastel-banana {
+  --page-color: var(--page-pastel-banana);
+  --accent-color: var(--pen-yellow);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(90%) sepia(15%)
+    saturate(700%) hue-rotate(50deg) brightness(100%) contrast(95%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Cherry Blossom Page -------------------------- */
+.page-pastel-cherry-blossom {
+  --page-color: var(--page-pastel-cherry-blossom);
+  --accent-color: var(--pen-pink);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(50%) sepia(30%)
+    saturate(850%) hue-rotate(340deg) brightness(94%) contrast(88%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Aqua Page -------------------------- */
+.page-pastel-aqua {
+  --page-color: var(--page-pastel-aqua);
+  --accent-color: var(--pen-teal);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(48%) sepia(20%)
+    saturate(1000%) hue-rotate(170deg) brightness(93%) contrast(85%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Plum Page -------------------------- */
+.page-pastel-plum {
+  --page-color: var(--page-pastel-plum);
+  --accent-color: var(--pen-purple);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(75%) sepia(40%)
+    saturate(750%) hue-rotate(270deg) brightness(92%) contrast(88%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Papaya Page -------------------------- */
+.page-pastel-papaya {
+  --page-color: var(--page-pastel-papaya);
+  --accent-color: var(--pen-orange);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(62%) sepia(45%)
+    saturate(950%) hue-rotate(20deg) brightness(94%) contrast(87%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Almond Page -------------------------- */
+.page-pastel-almond {
+  --page-color: var(--page-pastel-almond);
+  --accent-color: var(--pen-yellow);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(80%) sepia(30%)
+    saturate(650%) hue-rotate(60deg) brightness(100%) contrast(90%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Sunflower Page -------------------------- */
+.page-pastel-sunflower {
+  --page-color: var(--page-pastel-sunflower);
+  --accent-color: var(--pen-yellow);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(95%) sepia(25%)
+    saturate(500%) hue-rotate(45deg) brightness(98%) contrast(92%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Honeydew Page -------------------------- */
+.page-pastel-honeydew {
+  --page-color: var(--page-pastel-honeydew);
+  --accent-color: var(--pen-green);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(60%) sepia(15%)
+    saturate(800%) hue-rotate(70deg) brightness(93%) contrast(85%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Moonstone Page -------------------------- */
+.page-pastel-moonstone {
+  --page-color: var(--page-pastel-moonstone);
+  --accent-color: var(--pen-blue);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(52%) sepia(25%)
+    saturate(900%) hue-rotate(190deg) brightness(92%) contrast(85%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Amber Page -------------------------- */
+.page-pastel-amber {
+  --page-color: var(--page-pastel-amber);
+  --accent-color: var(--pen-orange);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(85%) sepia(20%)
+    saturate(750%) hue-rotate(30deg) brightness(100%) contrast(90%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Mauve Page -------------------------- */
+.page-pastel-mauve {
+  --page-color: var(--page-pastel-mauve);
+  --accent-color: var(--pen-purple);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(70%) sepia(35%)
+    saturate(950%) hue-rotate(280deg) brightness(92%) contrast(86%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Cyan Page -------------------------- */
+.page-pastel-cyan {
+  --page-color: var(--page-pastel-cyan);
+  --accent-color: var(--pen-blue);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(55%) sepia(45%)
+    saturate(1050%) hue-rotate(200deg) brightness(92%) contrast(87%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Cream Page -------------------------- */
+.page-pastel-cream {
+  --page-color: var(--page-pastel-cream);
+  --accent-color: var(--pen-yellow);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(65%) sepia(25%)
+    saturate(850%) hue-rotate(60deg) brightness(95%) contrast(85%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Jade Page -------------------------- */
+.page-pastel-jade {
+  --page-color: var(--page-pastel-jade);
+  --accent-color: var(--pen-green);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(70%) sepia(35%)
+    saturate(900%) hue-rotate(90deg) brightness(92%) contrast(88%);
+  color-scheme: light;
+}
+/* -------------------------- Pastel Caramel Page -------------------------- */
+.page-pastel-caramel {
+  --page-color: var(--page-pastel-caramel);
+  --accent-color: var(--pen-brown);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(80%) sepia(25%)
+    saturate(700%) hue-rotate(35deg) brightness(95%) contrast(90%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Salmon Page -------------------------- */
+.page-pastel-salmon {
+  --page-color: var(--page-pastel-salmon);
+  --accent-color: var(--pen-pink);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(65%) sepia(30%)
+    saturate(800%) hue-rotate(340deg) brightness(94%) contrast(88%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Magenta Page -------------------------- */
+.page-pastel-magenta {
+  --page-color: var(--page-pastel-magenta);
+  --accent-color: var(--pen-pink);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(50%) sepia(35%)
+    saturate(850%) hue-rotate(320deg) brightness(93%) contrast(90%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Denim Page -------------------------- */
+.page-pastel-denim {
+  --page-color: var(--page-pastel-denim);
+  --accent-color: var(--pen-blue);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(75%) sepia(30%)
+    saturate(800%) hue-rotate(210deg) brightness(92%) contrast(85%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Sand Page -------------------------- */
+.page-pastel-sand {
+  --page-color: var(--page-pastel-sand);
+  --accent-color: var(--pen-beige);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(80%) sepia(25%)
+    saturate(700%) hue-rotate(40deg) brightness(94%) contrast(87%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Rust Page -------------------------- */
+.page-pastel-rust {
+  --page-color: var(--page-pastel-rust);
+  --accent-color: var(--pen-orange);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(85%) sepia(35%)
+    saturate(900%) hue-rotate(15deg) brightness(90%) contrast(88%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Lime Page -------------------------- */
+.page-pastel-lime {
+  --page-color: var(--page-pastel-lime);
+  --accent-color: var(--pen-green);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(90%) sepia(20%)
+    saturate(800%) hue-rotate(50deg) brightness(94%) contrast(85%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Indigo Page -------------------------- */
+.page-pastel-indigo {
+  --page-color: var(--page-pastel-indigo);
+  --accent-color: var(--pen-blue);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(60%) sepia(40%)
+    saturate(750%) hue-rotate(230deg) brightness(91%) contrast(87%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Grape Page -------------------------- */
+.page-pastel-grape {
+  --page-color: var(--page-pastel-grape);
+  --accent-color: var(--pen-purple);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(45%) sepia(50%)
+    saturate(850%) hue-rotate(270deg) brightness(92%) contrast(85%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Cerulean Page -------------------------- */
+.page-pastel-cerulean {
+  --page-color: var(--page-pastel-cerulean);
+  --accent-color: var(--pen-blue);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(50%) sepia(25%)
+    saturate(800%) hue-rotate(190deg) brightness(92%) contrast(85%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Turquoise Page -------------------------- */
+.page-pastel-turquoise {
+  --page-color: var(--page-pastel-turquoise);
+  --accent-color: var(--pen-teal);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(60%) sepia(20%)
+    saturate(900%) hue-rotate(160deg) brightness(92%) contrast(87%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Powder Blue Page -------------------------- */
+.page-pastel-powder-blue {
+  --page-color: var(--page-pastel-powder-blue);
+  --accent-color: var(--pen-blue);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(65%) sepia(30%)
+    saturate(850%) hue-rotate(200deg) brightness(90%) contrast(85%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Forest Page -------------------------- */
+.page-pastel-forest {
+  --page-color: var(--page-pastel-forest);
+  --accent-color: var(--pen-green);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(75%) sepia(15%)
+    saturate(700%) hue-rotate(80deg) brightness(93%) contrast(88%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Blush Page -------------------------- */
+.page-pastel-blush {
+  --page-color: var(--page-pastel-blush);
+  --accent-color: var(--pen-pink);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(55%) sepia(40%)
+    saturate(850%) hue-rotate(350deg) brightness(94%) contrast(87%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Olive Page -------------------------- */
+.page-pastel-olive {
+  --page-color: var(--page-pastel-olive);
+  --accent-color: var(--pen-green);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(80%) sepia(35%)
+    saturate(800%) hue-rotate(60deg) brightness(90%) contrast(88%);
+  color-scheme: light;
+}
+/* -------------------------- Pastel Caramel Page -------------------------- */
+.page-pastel-caramel {
+  --page-color: var(--page-pastel-caramel);
+  --accent-color: var(--pen-brown);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(80%) sepia(25%)
+    saturate(700%) hue-rotate(35deg) brightness(95%) contrast(90%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Salmon Page -------------------------- */
+.page-pastel-salmon {
+  --page-color: var(--page-pastel-salmon);
+  --accent-color: var(--pen-pink);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(65%) sepia(30%)
+    saturate(800%) hue-rotate(340deg) brightness(94%) contrast(88%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Magenta Page -------------------------- */
+.page-pastel-magenta {
+  --page-color: var(--page-pastel-magenta);
+  --accent-color: var(--pen-pink);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(50%) sepia(35%)
+    saturate(850%) hue-rotate(320deg) brightness(93%) contrast(90%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Denim Page -------------------------- */
+.page-pastel-denim {
+  --page-color: var(--page-pastel-denim);
+  --accent-color: var(--pen-blue);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(75%) sepia(30%)
+    saturate(800%) hue-rotate(210deg) brightness(92%) contrast(85%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Sand Page -------------------------- */
+.page-pastel-sand {
+  --page-color: var(--page-pastel-sand);
+  --accent-color: var(--pen-beige);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(80%) sepia(25%)
+    saturate(700%) hue-rotate(40deg) brightness(94%) contrast(87%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Rust Page -------------------------- */
+.page-pastel-rust {
+  --page-color: var(--page-pastel-rust);
+  --accent-color: var(--pen-orange);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(85%) sepia(35%)
+    saturate(900%) hue-rotate(15deg) brightness(90%) contrast(88%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Lime Page -------------------------- */
+.page-pastel-lime {
+  --page-color: var(--page-pastel-lime);
+  --accent-color: var(--pen-green);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(90%) sepia(20%)
+    saturate(800%) hue-rotate(50deg) brightness(94%) contrast(85%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Indigo Page -------------------------- */
+.page-pastel-indigo {
+  --page-color: var(--page-pastel-indigo);
+  --accent-color: var(--pen-blue);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(60%) sepia(40%)
+    saturate(750%) hue-rotate(230deg) brightness(91%) contrast(87%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Grape Page -------------------------- */
+.page-pastel-grape {
+  --page-color: var(--page-pastel-grape);
+  --accent-color: var(--pen-purple);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(45%) sepia(50%)
+    saturate(850%) hue-rotate(270deg) brightness(92%) contrast(85%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Cerulean Page -------------------------- */
+.page-pastel-cerulean {
+  --page-color: var(--page-pastel-cerulean);
+  --accent-color: var(--pen-blue);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(50%) sepia(25%)
+    saturate(800%) hue-rotate(190deg) brightness(92%) contrast(85%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Turquoise Page -------------------------- */
+.page-pastel-turquoise {
+  --page-color: var(--page-pastel-turquoise);
+  --accent-color: var(--pen-teal);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(60%) sepia(20%)
+    saturate(900%) hue-rotate(160deg) brightness(92%) contrast(87%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Powder Blue Page -------------------------- */
+.page-pastel-powder-blue {
+  --page-color: var(--page-pastel-powder-blue);
+  --accent-color: var(--pen-blue);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(65%) sepia(30%)
+    saturate(850%) hue-rotate(200deg) brightness(90%) contrast(85%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Forest Page -------------------------- */
+.page-pastel-forest {
+  --page-color: var(--page-pastel-forest);
+  --accent-color: var(--pen-green);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(75%) sepia(15%)
+    saturate(700%) hue-rotate(80deg) brightness(93%) contrast(88%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Blush Page -------------------------- */
+.page-pastel-blush {
+  --page-color: var(--page-pastel-blush);
+  --accent-color: var(--pen-pink);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(55%) sepia(40%)
+    saturate(850%) hue-rotate(350deg) brightness(94%) contrast(87%);
+  color-scheme: light;
+}
+
+/* -------------------------- Pastel Olive Page -------------------------- */
+.page-pastel-olive {
+  --page-color: var(--page-pastel-olive);
+  --accent-color: var(--pen-green);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(80%) sepia(35%)
+    saturate(800%) hue-rotate(60deg) brightness(90%) contrast(88%);
+  color-scheme: light;
+}
+.page-pastel-charcoal {
+  /* Charcoal pastel background */
+  --page-color: var(--page-pastel-charcoal);
+  --accent-color: var(--pen-black);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(30%) sepia(40%)
+    saturate(1600%) hue-rotate(180deg) brightness(85%) contrast(90%);
+  color-scheme: light;
+}
+
+.page-pastel-beige {
+  /* Beige pastel background */
+  --page-color: var(--page-pastel-beige);
+  --accent-color: var(--pen-black);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(17%) sepia(65%)
+    saturate(1200%) hue-rotate(43deg) brightness(88%) contrast(91%);
+  color-scheme: light;
+}
+
+.page-pastel-citrus {
+  /* Citrus pastel background */
+  --page-color: var(--page-pastel-citrus);
+  --accent-color: var(--pen-yellow);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(53%) sepia(80%)
+    saturate(1400%) hue-rotate(70deg) brightness(89%) contrast(85%);
+  color-scheme: light;
+}
+
+.page-pastel-slate {
+  /* Slate pastel background */
+  --page-color: var(--page-pastel-slate);
+  --accent-color: var(--pen-blue);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(25%) sepia(60%)
+    saturate(1400%) hue-rotate(200deg) brightness(90%) contrast(92%);
+  color-scheme: light;
+}
+
+.page-pastel-clay {
+  /* Clay pastel background */
+  --page-color: var(--page-pastel-clay);
+  --accent-color: var(--pen-brown);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(40%) sepia(60%)
+    saturate(1200%) hue-rotate(45deg) brightness(86%) contrast(95%);
+  color-scheme: light;
+}
+
+.page-pastel-cloud {
+  /* Cloud pastel background */
+  --page-color: var(--page-pastel-cloud);
+  --accent-color: var(--pen-white);
+  --accent-color-trans: color-mix(
+    in srgb,
+    var(--accent-color) 15%,
+    transparent
+  );
+  --image-effect: brightness(0) saturate(100%) invert(10%) sepia(40%)
+    saturate(1500%) hue-rotate(220deg) brightness(98%) contrast(100%);
+  color-scheme: light;
+}
+/* Adds a grid layout on page background */
+.page-grid {
+  background-image: linear-gradient(
+      0deg,
+      transparent 0px,
+      var(--accent-color-trans) 1px,
+      var(--accent-color-trans) 2px,
+      transparent 3px
+    ),
+    linear-gradient(
+      90deg,
+      transparent calc(var(--grid-size) - 3px),
+      var(--accent-color-trans) calc(var(--grid-size) - 2px),
+      var(--accent-color-trans) calc(var(--grid-size) - 1px),
+      transparent var(--grid-size)
+    );
+  background-size: var(--grid-size) var(--grid-size);
+}
+
+/* ------------------------------- Pen Colors ------------------------------- */
+
+/* SVGs */
+:is(
+    .page-white,
+    .page-manila,
+    .page-blueprint,
+    .page-pastel-yellow,
+    .page-pastel-pink,
+    .page-pastel-green,
+    .page-pastel-blue,
+    .page-pastel-lilac,
+    .page-pastel-rose,
+    .page-pastel-mint,
+    .page-pastel-sky,
+    .page-pastel-lemon,
+    .page-pastel-coral,
+    .page-pastel-lavender,
+    .page-pastel-seafoam,
+    .page-pastel-apricot,
+    .page-pastel-peach,
+    .page-pastel-tea-green,
+    .page-pastel-periwinkle,
+    .page-pastel-cotton-candy,
+    .page-pastel-banana,
+    .page-pastel-cherry-blossom,
+    .page-pastel-aqua,
+    .page-pastel-plum,
+    .page-pastel-papaya,
+    .page-pastel-almond,
+    .page-pastel-sunflower,
+    .page-pastel-honeydew,
+    .page-pastel-moonstone,
+    .page-pastel-amber,
+    .page-pastel-mauve,
+    .page-pastel-cyan,
+    .page-pastel-cream,
+    .page-pastel-jade,
+    .page-pastel-caramel,
+    .page-pastel-salmon,
+    .page-pastel-magenta,
+    .page-pastel-denim,
+    .page-pastel-sand,
+    .page-pastel-rust,
+    .page-pastel-lime,
+    .page-pastel-indigo,
+    .page-pastel-grape,
+    .page-pastel-cerulean,
+    .page-pastel-turquoise,
+    .page-pastel-powder-blue,
+    .page-pastel-forest,
+    .page-pastel-blush,
+    .page-pastel-olive,
+    .page-pastel-charcoal,
+    .page-pastel-beige,
+    .page-pastel-citrus,
+    .page-pastel-slate,
+    .page-pastel-clay,
+    .page-pastel-cloud,
+
+  ) {
+  color: var(--pen-black);
+}
+
+.pen-orange {
+  --accent-color: #ff6f00;
+  --accent-color-trans: color-mix(in srgb, #ff6f00 15%, transparent);
+  color: var(--accent-color);
+  --hr-color: var(--accent-color);
+  --image-effect: brightness(0) saturate(100%) invert(28%) sepia(56%)
+    saturate(1800%) hue-rotate(39deg) brightness(92%) contrast(88%);
+}
+
+.pen-pink {
+  --accent-color: #f50057;
+  --accent-color-trans: color-mix(in srgb, #f50057 15%, transparent);
+  color: var(--accent-color);
+  --hr-color: var(--accent-color);
+  --image-effect: brightness(0) saturate(100%) invert(43%) sepia(77%)
+    saturate(500%) hue-rotate(340deg) brightness(98%) contrast(92%);
+}
+
+.pen-teal {
+  --accent-color: #00897b;
+  --accent-color-trans: color-mix(in srgb, #00897b 15%, transparent);
+  color: var(--accent-color);
+  --hr-color: var(--accent-color);
+  --image-effect: brightness(0) saturate(100%) invert(48%) sepia(35%)
+    saturate(1900%) hue-rotate(140deg) brightness(96%) contrast(85%);
+}
+
+.pen-yellow {
+  --accent-color: #ffeb3b;
+  --accent-color-trans: color-mix(in srgb, #ffeb3b 15%, transparent);
+  color: var(--accent-color);
+  --hr-color: var(--accent-color);
+  --image-effect: brightness(0) saturate(100%) invert(90%) sepia(100%)
+    saturate(1100%) hue-rotate(42deg) brightness(100%) contrast(100%);
+}
+
+.pen-brown {
+  --accent-color: #6d4c41;
+  --accent-color-trans: color-mix(in srgb, #6d4c41 15%, transparent);
+  color: var(--accent-color);
+  --hr-color: var(--accent-color);
+  --image-effect: brightness(0) saturate(100%) invert(15%) sepia(70%)
+    saturate(300%) hue-rotate(30deg) brightness(90%) contrast(88%);
+}

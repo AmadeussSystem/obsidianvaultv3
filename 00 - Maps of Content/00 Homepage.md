@@ -1,9 +1,7 @@
 ---
 banner: "![[requiem2_banner.jpg]]"
 banner_y: 0.5
-cssclasses:
-  - page-pastel-aqua
-  - page-grid
+cssclasses: []
 ---
 # Home
 
