@@ -1,0 +1,22 @@
+{
+  "accentColor": "",
+  "cssTheme": "Flexoki",
+  "interfaceFontFamily": "JetBrains Mono,JetBrainsMono Nerd Font Mono,MonoLisa",
+  "textFontFamily": "JetBrains Mono,MonoLisa,JetBrainsMono Nerd Font Mono",
+  "monospaceFontFamily": "JetBrains Mono,MonoLisa,JetBrainsMono Nerd Font Mono",
+  "enabledCssSnippets": [
+    "retro-notebook-bg",
+    "Daily Note",
+    "Notebook Backgrounds",
+    "Runescape",
+    "Japanese Fonts",
+    "Japanese Font Support",
+    "Colored Sidebar Items",
+    "Minecraft",
+    "CyanVoxel's General Tweaks",
+    "Daily Note Themes"
+  ],
+  "translucency": false,
+  "theme": "obsidian",
+  "baseFontSize": 19
+}

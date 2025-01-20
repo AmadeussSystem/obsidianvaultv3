@@ -1,0 +1,10 @@
+{
+  "vauxhall@@main-color": "vauxhall-teal",
+  "vauxhall@@color-intensity": "intensity-void",
+  "vauxhall@@header-color-type": "headers-mono-gradient",
+  "vauxhall@@h1-accent": true,
+  "ITS@@radius-s": 12,
+  "ITS@@ITS-Sizes": "sizing-readable",
+  "ITS@@file-f": "JetBrain Mono",
+  "ITS@@folder-f": "JetBrain Mono"
+}
