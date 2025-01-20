@@ -121,9 +121,9 @@
   "06 - Periodic/03 - Quarterly Adjustments": "LiCalendarHeart",
   "05 - Fleeting/01 - Short Term Learning": "BoBxObjectsHorizontalRight",
   "05 - Fleeting/02 - Temporary Resources": "LiPaperclip",
-  "04 - Permanent/02 - Roadmap Mastery": "LiMap",
-  "04 - Permanent/01 - Core Knowledge": "LiBrain",
   "03 - Resources/03 - External Input": "BoBxExtension",
   "03 - Resources/02 - Knowledge Repositories": "BoBxsBrain",
-  "03 - Resources/01 - Learning  Materials": "BoBxObjectsVerticalCenter"
+  "03 - Resources/01 - Learning  Materials": "BoBxObjectsVerticalCenter",
+  "04 - Permanent/01 - Core Knowledge": "LiBrain",
+  "04 - Permanent/02 - Roadmap Mastery": "LiMap"
 }

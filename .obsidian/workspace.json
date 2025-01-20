@@ -8,31 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a876dfad92f298d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "07 - Meetings/Placeholder.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Placeholder"
-            }
-          },
-          {
             "id": "815eadb2dd9e3eab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 - Maps of Content/00 Homepage.md",
+                "file": "02 - Meta Learning/03 - How/202501201947.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00 Homepage"
+              "title": "202501201947"
             }
           }
         ]
@@ -252,9 +238,28 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a876dfad92f298d4",
+  "active": "48db5e5e042efd58",
   "lastOpenFiles": [
+    "02 - Meta Learning/02 - What/202501201942.md",
+    "02 - Meta Learning/03 - How/Placeholder.md",
+    "02 - Meta Learning/03 - How/202501201947.md",
     "02 - Meta Learning/Placeholder.md",
+    "02 - Meta Learning/01 - Why/202501201932.md",
+    "02 - Meta Learning/02 - What/ED-202501201938.excalidraw.md",
+    "02 - Meta Learning/02 - What/Placeholder.md",
+    "99 - Meta/Backgrounds/requiem2_banner.jpg",
+    "02 - Meta Learning/01 - Why/Placeholder.md",
+    "01 - Projects/202501201918.md",
+    "01 - Projects/Placeholder.md",
+    "04 - Permanent/02 - Roadmap Mastery/DSA_COMPLETE.jpg",
+    "04 - Permanent/02 - Roadmap Mastery/Corman Introduction to Algorithms DSA-roadmap.jpg",
+    "99 - Meta/Preloaded Classes/202401211512 Notebook CSS Classes.md",
+    "00 - Maps of Content/01 Meetings.md",
+    "99 - Meta/Preloaded Classes/202403091325 Daily Class Preload.md",
+    "99 - Meta/Preloaded Classes/202403091325 General Tweaks CSS Classes.md",
+    "99 - Meta/Backgrounds/dead_banner.gif",
+    "98 - Archives/Placeholder.md",
+    "07 - Meetings/Placeholder.md",
     "08 - Entities/02 - External Resources",
     "07 - Meetings/03 - Actionable Feedback",
     "07 - Meetings/01 - Mentorship/Placeholder.md",
@@ -267,28 +272,13 @@
     "04 - Permanent/02 - Roadmap Mastery",
     "04 - Permanent/01 - Core Knowledge",
     "00 - Maps of Content/00 Homepage.md",
-    "00 - Maps of Content/01 Meetings.md",
-    "02 - Meta Learning/03 - How/Placeholder.md",
-    "02 - Meta Learning/02 - What/Placeholder.md",
-    "02 - Meta Learning/01 - Why/Placeholder.md",
     "202501201536.md",
     "202501201535.md",
-    "99 - Meta/Preloaded Classes/202401211512 Notebook CSS Classes.md",
-    "01 - Projects/Placeholder.md",
     "06 - Periodic/00 - Daily/2025-01-01.md",
     "05 - Fleeting/Placeholder.md",
     "07 - Meetings/Standups/Placeholder.md",
     "06 - Periodic/00 - Daily/Placeholder.md",
     "06 - Periodic/01 - Weekly Check-ins/Placeholder.md",
-    "06 - Periodic/02 - Monthly/Placeholder.md",
-    "06 - Periodic/03 - Quarterly/Placeholder.md",
-    "06 - Periodic/04 - Yearly/Placeholder.md",
-    "06 - Periodic/Placeholder.md",
-    "07 - Meetings/Placeholder.md",
-    "08 - Entities/01 - People & Networks/Placeholder.md",
-    "06 - Periodic/02 - Monthly/2024-06.md",
-    "06 - Periodic/01 - Weekly/2024-W23.md",
-    "08 - Entities/01 - People/Brandon Weaver.md",
-    "99 - Meta/Backgrounds/requiem2_banner.jpg"
+    "06 - Periodic/02 - Monthly/Placeholder.md"
   ]
 }

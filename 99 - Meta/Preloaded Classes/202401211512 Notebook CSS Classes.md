@@ -76,6 +76,8 @@ cssclasses:
   - embed-manila
   - page-grid
 banner: "![[requiem2_banner.jpg]]"
+banner_y: 
+bannerasdasd:
 ---
 
 <div style="display: none;">
