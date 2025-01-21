@@ -5,7 +5,8 @@ cssclasses: []
 ---
 # Home
 
-Overview of vault content.
+![[202501201918]]
+
 ## Areas
 
 ```dataview

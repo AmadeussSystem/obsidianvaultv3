@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "BoBxObjectsVerticalCenter",
-      "BoBxsBrain",
-      "BoBxExtension",
-      "LiBrain",
-      "LiMap"
+      "LiAirVent",
+      "LiAccessibility",
+      "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+      "BoBxDumbbell",
+      "👁️‍🗨️"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [
@@ -125,5 +125,8 @@
   "03 - Resources/02 - Knowledge Repositories": "BoBxsBrain",
   "03 - Resources/01 - Learning  Materials": "BoBxObjectsVerticalCenter",
   "04 - Permanent/01 - Core Knowledge": "LiBrain",
-  "04 - Permanent/02 - Roadmap Mastery": "LiMap"
+  "04 - Permanent/02 - Roadmap Mastery": "LiMap",
+  "03 - Resources/02 - Knowledge Repositories/01 - Concepts": "BoBxDumbbell",
+  "03 - Resources/02 - Knowledge Repositories/02 - Facts": "LiAccessibility",
+  "03 - Resources/02 - Knowledge Repositories/03 - Procedure": "LiAirVent"
 }

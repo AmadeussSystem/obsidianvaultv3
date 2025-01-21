@@ -38,5 +38,6 @@
   "metaedit",
   "js-engine",
   "ics",
-  "obsidian-auto-hide"
+  "obsidian-auto-hide",
+  "obsidian-linter"
 ]

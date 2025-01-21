@@ -1,5 +1,5 @@
 {
-  "lastOpenLanguageTab": "ruby",
+  "lastOpenLanguageTab": "rust",
   "releaseNote2_0_0wasShowed": true,
   "persistentOuput": false,
   "timeout": 10000,
@@ -63,7 +63,7 @@
   "powershellEncoding": "latin1",
   "cargoPath": "cargo",
   "cargoEvalArgs": "",
-  "rustInject": "",
+  "rustInject": "#![allow(unused)]\n",
   "cppRunner": "cling",
   "cppFileExtension": "cpp",
   "cppInject": "",
