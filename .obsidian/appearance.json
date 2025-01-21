@@ -1,9 +1,9 @@
 {
   "accentColor": "",
   "cssTheme": "Flexoki",
-  "interfaceFontFamily": "JetBrains Mono,JetBrainsMono Nerd Font Mono,MonoLisa",
-  "textFontFamily": "JetBrains Mono,MonoLisa,JetBrainsMono Nerd Font Mono",
-  "monospaceFontFamily": "JetBrains Mono,MonoLisa,JetBrainsMono Nerd Font Mono",
+  "interfaceFontFamily": "JetBrains Mono,Iosevka,JetBrainsMono Nerd Font Mono,MonoLisa",
+  "textFontFamily": "JetBrains Mono,Iosevka,MonoLisa,JetBrainsMono Nerd Font Mono",
+  "monospaceFontFamily": "JetBrains Mono,Iosevka,MonoLisa,JetBrainsMono Nerd Font Mono",
   "enabledCssSnippets": [
     "retro-notebook-bg",
     "Daily Note",

@@ -1,6 +1,3 @@
-/* This CSS Snippet is for displaying proper Japanese characters across
-notes and flashcards. */
-
 .japanese {
   --font-text: "Yu Gothic", "Hiragino Sans";
   /* color: cyan; */
@@ -18,4 +15,24 @@ notes and flashcards. */
 
 #sr-flashcard-view code {
   font-family: "JetBrainsMono Nerd Font Mono", "SF Mono", monospace !important;
+}
+
+/* Math-specific styles using Iosevka */
+.math {
+  --font-text: "Iosevka";
+  /* color: lightblue; */
+}
+
+.math .cm-editor {
+  --font-text: "Iosevka";
+  /* color: green; */
+}
+
+#math-flashcard-view {
+  font-family: "Iosevka";
+  --font-monospace-default: "Iosevka", "JetBrains Mono", monospace !important;
+}
+
+#math-flashcard-view code {
+  font-family: "Iosevka", "JetBrains Mono", monospace !important;
 }

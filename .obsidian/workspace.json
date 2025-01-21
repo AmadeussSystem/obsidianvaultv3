@@ -4,36 +4,63 @@
     "type": "split",
     "children": [
       {
-        "id": "7686602191e8ba42",
+        "id": "f04fe8ad4bb03230",
         "type": "tabs",
         "children": [
           {
-            "id": "5d5d47d77fb424ba",
+            "id": "7001126bcd44e657",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "b3c34f565ec87494",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Resources/02 - Knowledge Repositories/03 - Procedure/202501211001.md",
+                "file": "03 - Resources/01 - Learning  Materials/202501220057.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "202501211001"
+              "title": "202501220057"
             }
           },
           {
-            "id": "5aa73f053cd41d82",
+            "id": "08c3125d6db5891f",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "02 - Meta Learning/02 - What/ED-202501201938.excalidraw.md"
+                "file": "03 - Resources/01 - Learning  Materials/202501220057.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "ED-202501201938.excalidraw"
+              "icon": "lucide-file",
+              "title": "202501220057"
+            }
+          },
+          {
+            "id": "1624a43a74400914",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 - Resources/01 - Learning  Materials/202501220057.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "202501220057"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -117,8 +144,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "e2923ca1019dc92a",
@@ -248,43 +274,46 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "iconic:Open rulebook": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "5d5d47d77fb424ba",
+  "active": "1624a43a74400914",
   "lastOpenFiles": [
-    "01 - Projects/202501201918.md",
-    "02 - Meta Learning/02 - What/ED-202501201938.excalidraw.md",
-    "03 - Resources/02 - Knowledge Repositories/03 - Procedure/202501211001.md",
+    "04 - Permanent/02 - Roadmap Mastery/1-202501220044.jpg",
+    "03 - Resources/01 - Learning  Materials/202501220057.md",
+    "02 - Meta Learning/03 - How/202501201947.md",
     "02 - Meta Learning/02 - What/202501201942.md",
+    "02 - Meta Learning/02 - What/202501220044.md",
+    "00 - Maps of Content/00 Homepage.md",
+    "04 - Permanent/02 - Roadmap Mastery/DSA_COMPLETE.jpg",
+    "00 - Maps of Content/01 Meetings.md",
+    "02 - Meta Learning/03 - How/202501220047.md",
+    "02 - Meta Learning/02 - What/ED-202501220044.excalidraw.md",
+    "02 - Meta Learning/03 - How/Placeholder.md",
+    "02 - Meta Learning/02 - What/Placeholder.md",
+    "02 - Meta Learning/02 - What/ED-202501201938.excalidraw.md",
+    "02 - Meta Learning/01 - Why/202501201932.md",
+    "02 - Meta Learning/01 - Why/202501220041.md",
+    "02 - Meta Learning/01 - Why/Placeholder.md",
+    "01 - Projects/202501201918.md",
+    "01 - Projects/202501211432.md",
+    "03 - Resources/03 - External Input/202501211118.md",
+    "99 - Meta/Backgrounds/elegant_math.jpg",
+    "99 - Meta/Backgrounds/1-00 Homepage.jpg",
+    "03 - Resources/02 - Knowledge Repositories/03 - Procedure/202501211001.md",
     "03 - Resources/02 - Knowledge Repositories/03 - Procedure",
     "03 - Resources/02 - Knowledge Repositories/02 - Facts",
     "03 - Resources/02 - Knowledge Repositories/01 - Concepts",
     "06 - Periodic/00 - Daily/2025-01-21.md",
     "05 - Fleeting/02 - Temporary Resources/202501210924.md",
-    "00 - Maps of Content/00 Homepage.md",
     "99 - Meta/00 - Templates/(TEMPLATE) Unique.md",
     "99 - Meta/00 - Templates/Meeting Template AUTO.md",
     "99 - Meta/00 - Templates/Person Template.md",
     "06 - Periodic/00 - Daily/Placeholder.md",
     "06 - Periodic/00 - Daily/Invalid date.md",
-    "06 - Periodic/00 - Daily/2025-01-01.md",
-    "00 - Maps of Content/01 Meetings.md",
-    "07 - Meetings/Placeholder.md",
-    "99 - Meta/00 - Templates/(ZK) Resource Template.md",
-    "99 - Meta/00 - Templates/(ZK) Area Template.md",
-    "02 - Meta Learning/01 - Why/202501201932.md",
-    "99 - Meta/00 - Templates/(ZK) Project Template.md",
-    "02 - Meta Learning/03 - How/202501201947.md",
-    "04 - Permanent/02 - Roadmap Mastery/DSA_COMPLETE.jpg",
-    "02 - Meta Learning/03 - How/Placeholder.md",
-    "02 - Meta Learning/Placeholder.md",
-    "02 - Meta Learning/02 - What/Placeholder.md",
     "99 - Meta/Backgrounds/requiem2_banner.jpg",
-    "02 - Meta Learning/01 - Why/Placeholder.md",
-    "01 - Projects/Placeholder.md",
     "04 - Permanent/02 - Roadmap Mastery/Corman Introduction to Algorithms DSA-roadmap.jpg",
-    "99 - Meta/Preloaded Classes/202401211512 Notebook CSS Classes.md",
     "99 - Meta/Backgrounds/dead_banner.gif",
     "08 - Entities/02 - External Resources",
     "07 - Meetings/03 - Actionable Feedback",

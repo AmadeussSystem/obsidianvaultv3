@@ -39,5 +39,7 @@
   "js-engine",
   "ics",
   "obsidian-auto-hide",
-  "obsidian-linter"
+  "obsidian-linter",
+  "iconic",
+  "obsidian-latex-suite"
 ]
