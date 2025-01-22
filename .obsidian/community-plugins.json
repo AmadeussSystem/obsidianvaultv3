@@ -42,5 +42,8 @@
   "obsidian-linter",
   "iconic",
   "obsidian-latex-suite",
-  "toggle-readable-line-length"
+  "toggle-readable-line-length",
+  "obsidian-tikzjax",
+  "ninja-cursor",
+  "remember-cursor-position"
 ]

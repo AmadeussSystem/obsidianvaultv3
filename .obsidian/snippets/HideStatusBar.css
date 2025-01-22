@@ -1,3 +1,12 @@
 .status-bar {
     display: none !important;
 }
+/* Change cursor color to black */
+/* Force cursor color to Obsidian black */
+.cm-editor, 
+.cm-content, 
+.cm-content * {
+    caret-color: #000000 !important; 
+}
+
+
