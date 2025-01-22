@@ -45,5 +45,6 @@
   "toggle-readable-line-length",
   "obsidian-tikzjax",
   "ninja-cursor",
-  "remember-cursor-position"
+  "remember-cursor-position",
+  "obsidian-html-tags-autocomplete"
 ]
