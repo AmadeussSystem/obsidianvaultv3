@@ -16,5 +16,13 @@
       ],
       "key": "P"
     }
+  ],
+  "toggle-readable-line-length:flip-readable-line-length-setting": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Z"
+    }
   ]
 }

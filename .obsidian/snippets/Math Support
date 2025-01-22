@@ -1,0 +1,32 @@
+/* Define fonts and styles for math support */
+:root {
+    --font-math: "Iosevka", monospace;
+}
+
+/* General math text styling */
+.math {
+    --font-text: var(--font-math);
+    font-family: var(--font-math);
+}
+
+.math .cm-editor {
+    --font-text: var(--font-math);
+    font-family: var(--font-math);
+}
+
+/* Math flashcard view */
+#math-flashcard-view {
+    font-family: var(--font-math);
+    --font-monospace-default: var(--font-math);
+}
+
+#math-flashcard-view code {
+    font-family: var(--font-math);
+}
+
+/* Line length adjustments for math-specific views */
+.math.markdown-preview-view, .math .cm-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}

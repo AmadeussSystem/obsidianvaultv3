@@ -13,5 +13,6 @@
   "readableLineLength": true,
   "spellcheck": false,
   "tabSize": 2,
-  "useTab": false
+  "useTab": false,
+  "foldHeading": true
 }

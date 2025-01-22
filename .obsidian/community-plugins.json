@@ -41,5 +41,6 @@
   "obsidian-auto-hide",
   "obsidian-linter",
   "iconic",
-  "obsidian-latex-suite"
+  "obsidian-latex-suite",
+  "toggle-readable-line-length"
 ]
