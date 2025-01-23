@@ -1,0 +1,7 @@
+{
+  "font_folder": ".obsidian/fonts/",
+  "font": "all",
+  "force_mode": true,
+  "custom_css_mode": false,
+  "custom_css": ":root * {\n\t\t--font-default: NewCM08-Book;\n\t\t--default-font: NewCM08-Book;\n\t\t--font-family-editor: NewCM08-Book;\n\t\t--font-monospace-default: NewCM08-Book,\n\t\t--font-interface-override: NewCM08-Book,\n\t\t--font-text-override: NewCM08-Book,\n\t\t--font-monospace-override: NewCM08-Book,\t\n\t}\n"
+}

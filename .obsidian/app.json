@@ -14,5 +14,6 @@
   "spellcheck": false,
   "tabSize": 2,
   "useTab": false,
-  "foldHeading": true
+  "foldHeading": true,
+  "showLineNumber": true
 }

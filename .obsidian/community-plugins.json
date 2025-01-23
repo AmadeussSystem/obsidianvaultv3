@@ -46,5 +46,7 @@
   "obsidian-tikzjax",
   "ninja-cursor",
   "remember-cursor-position",
-  "obsidian-html-tags-autocomplete"
+  "obsidian-html-tags-autocomplete",
+  "tabout",
+  "custom-font-loader"
 ]

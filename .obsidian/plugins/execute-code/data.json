@@ -61,7 +61,7 @@
   "powershellFileExtension": "ps1",
   "powershellInject": "$OutputEncoding = [console]::InputEncoding = [console]::OutputEncoding = New-Object System.Text.UTF8Encoding",
   "powershellEncoding": "latin1",
-  "cargoPath": "cargo",
+  "cargoPath": "C:/Users/Lone/.cargo/bin/cargo.exe",
   "cargoEvalArgs": "",
   "rustInject": "#![allow(unused)]\n",
   "cppRunner": "cling",

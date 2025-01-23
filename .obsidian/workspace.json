@@ -8,45 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b3c34f565ec87494",
+            "id": "4a1ac7f62ab6482a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Resources/01 - Learning  Materials/202501220057.md",
+                "file": "04 - Permanent/01 - Core Knowledge/202501231045.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "202501220057"
+              "title": "202501231045"
             }
           },
           {
-            "id": "f45825273fca6a12",
+            "id": "a35002e98c1a3317",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "202501221912.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "202501221912"
-            }
-          },
-          {
-            "id": "a9754303b60f02ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 - Maps of Content/00 Homepage.md",
+                "file": "04 - Permanent/01 - Core Knowledge/202501231045.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00 Homepage"
+              "title": "202501231045"
             }
           }
         ]
@@ -81,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Bar",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -133,8 +119,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 242.5,
-    "collapsed": true
+    "width": 323.5
   },
   "right": {
     "id": "e2923ca1019dc92a",
@@ -254,8 +239,8 @@
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "templater-obsidian:Templater": false,
       "homepage:Open homepage": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
       "dbfolder:Create a new database table": false,
       "obsidian-git:Open Git source control": false,
       "janitor:Janitor: scan vault": false,
@@ -268,44 +253,44 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b3c34f565ec87494",
+  "active": "4a1ac7f62ab6482a",
   "lastOpenFiles": [
-    "202501221912.md",
-    "03 - Resources/01 - Learning  Materials/202501220057.md",
+    "04 - Permanent/01 - Core Knowledge/202501220057.md",
     "00 - Maps of Content/00 Homepage.md",
-    "03 - Resources/02 - Knowledge Repositories/03 - Procedure/202501211001.md",
-    "03 - Resources/03 - External Input/202501090935.md",
-    "03 - Resources/03 - External Input/202501211118.md",
+    "04 - Permanent/01 - Core Knowledge/202501231045.md",
+    "04 - Permanent/Placeholder.md",
+    "06 - Periodic/00 - Daily/2025-01-23.md",
+    "04 - Permanent/02 - Roadmap Mastery/DSA_COMPLETE.jpg",
     "01 - Projects/202501221304.md",
+    "04 - Permanent/02 - Roadmap Mastery/1-202501220044.jpg",
+    "03 - Resources/03 - External Input/202501090935.md",
+    "06 - Periodic/Placeholder.md",
+    "06 - Periodic/00 - Daily/2025-01-21.md",
+    "05 - Fleeting/02 - Temporary Resources/202501210924.md",
+    "02 - Meta Learning/01 - Why/Placeholder.md",
+    "02 - Meta Learning/02 - What/Placeholder.md",
+    "02 - Meta Learning/Placeholder.md",
+    "03 - Resources/03 - External Input/202501211118.md",
+    "Untitled.md",
+    "06 - Periodic/00 - Daily/2025-01-22.md",
     "03 - Resources/Placeholder.md",
+    "03 - Resources/02 - Knowledge Repositories/03 - Procedure/202501211001.md",
+    "03 - Resources/02 - Knowledge Repositories/02 - Facts/202501221912.md",
     "01 - Projects/202501211432.md",
     "02 - Meta Learning/01 - Why/202501220041.md",
-    "06 - Periodic/00 - Daily/2025-01-22.md",
     "99 - Meta/Backgrounds/GLA_University.jpeg",
     "99 - Meta/Backgrounds/GLA_University-transformed.jpeg",
     "99 - Meta/Backgrounds/GLA_University.jpg",
-    "04 - Permanent/02 - Roadmap Mastery/1-202501220044.jpg",
     "02 - Meta Learning/03 - How/202501201947.md",
     "02 - Meta Learning/02 - What/202501201942.md",
     "02 - Meta Learning/02 - What/202501220044.md",
-    "04 - Permanent/02 - Roadmap Mastery/DSA_COMPLETE.jpg",
     "00 - Maps of Content/01 Meetings.md",
     "02 - Meta Learning/03 - How/202501220047.md",
-    "02 - Meta Learning/02 - What/ED-202501220044.excalidraw.md",
-    "02 - Meta Learning/03 - How/Placeholder.md",
-    "02 - Meta Learning/02 - What/Placeholder.md",
-    "02 - Meta Learning/02 - What/ED-202501201938.excalidraw.md",
-    "02 - Meta Learning/01 - Why/202501201932.md",
-    "02 - Meta Learning/01 - Why/Placeholder.md",
-    "01 - Projects/202501201918.md",
     "99 - Meta/Backgrounds/elegant_math.jpg",
     "99 - Meta/Backgrounds/1-00 Homepage.jpg",
     "03 - Resources/02 - Knowledge Repositories/03 - Procedure",
     "03 - Resources/02 - Knowledge Repositories/02 - Facts",
     "03 - Resources/02 - Knowledge Repositories/01 - Concepts",
-    "06 - Periodic/00 - Daily/2025-01-21.md",
-    "05 - Fleeting/02 - Temporary Resources/202501210924.md",
-    "99 - Meta/00 - Templates/(TEMPLATE) Unique.md",
     "99 - Meta/Backgrounds/requiem2_banner.jpg",
     "04 - Permanent/02 - Roadmap Mastery/Corman Introduction to Algorithms DSA-roadmap.jpg",
     "99 - Meta/Backgrounds/dead_banner.gif",
