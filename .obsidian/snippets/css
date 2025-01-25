@@ -1,0 +1,144 @@
+:root {
+  /* Base Pen Colors */
+  --pen-white: #edf1fc;
+  --pen-gray: #5f5d58;
+  --pen-black: #26241f;
+  --pen-red: #e14a49;
+  --pen-green: #15b64f;
+  --pen-blue: #3f76ed;
+  --pen-light-blue: #54b6f8;
+  --pen-purple: #9b4ff0;
+  --pen-orange: #ff6f00;
+  --pen-pink: #f50057;
+  --pen-teal: #00897b;
+  --pen-yellow: #ffeb3b;
+  --pen-brown: #6d4c41;
+
+  --neutral-pen-black: #272727;
+  --neutral-pen-black-trans: #27272722;
+
+  /* Page Colors */
+  --page-white: #ffffff;
+  --page-manila: #f3deaf;
+  --page-blue: #3f76ed;
+  --page-pastel-yellow: #fff9c4;
+  --page-pastel-pink: #f8bbd0;
+  --page-pastel-green: #c8e6c9;
+  --page-pastel-blue: #bbdefb;
+  --page-pastel-lilac: #e4b8f5;
+  --page-pastel-rose: #f5b8cc;
+  --page-pastel-mint: #b8f5d1;
+  --page-pastel-sky: #b8d7f5;
+  --page-pastel-lemon: #f5f5b8;
+  --page-pastel-coral: #f5b8a4;
+  --page-pastel-lavender: #d5b8f5;
+  --page-pastel-seafoam: #b8f5e1;
+  --page-pastel-apricot: #f5c5b8;
+  --page-pastel-peach: #f5cdb8;
+  --page-pastel-tea-green: #ccf5b8;
+  --page-pastel-periwinkle: #b8c3f5;
+  --page-pastel-cotton-candy: #f5b8e8;
+  --page-pastel-banana: #f5e4b8;
+  --page-pastel-cherry-blossom: #f5b8da;
+  --page-pastel-aqua: #b8f5f2;
+  --page-pastel-plum: #e5b8f5;
+  --page-pastel-papaya: #f5c0b8;
+  --page-pastel-almond: #f5dcb8;
+  --page-pastel-sunflower: #f5e8b8;
+  --page-pastel-honeydew: #e5f5b8;
+  --page-pastel-moonstone: #b8e4f5;
+  --page-pastel-amber: #f5cbb8;
+  --page-pastel-mauve: #f5b8cf;
+  --page-pastel-cyan: #b8f0f5;
+  --page-pastel-cream: #f5e8d4;
+  --page-pastel-jade: #b8f5cc;
+  --page-pastel-caramel: #f5dab8;
+  --page-pastel-salmon: #f5b8a6;
+  --page-pastel-magenta: #f5b8f1;
+  --page-pastel-denim: #b8bff5;
+  --page-pastel-sand: #f5e2b8;
+  --page-pastel-rust: #f5b8ba;
+  --page-pastel-lime: #d4f5b8;
+  --page-pastel-indigo: #b8a9f5;
+  --page-pastel-grape: #c7b8f5;
+  --page-pastel-cerulean: #b8dff5;
+  --page-pastel-turquoise: #b8f5e8;
+  --page-pastel-powder-blue: #d4e4f5;
+  --page-pastel-forest: #b8f5b9;
+  --page-pastel-blush: #f5bac9;
+  --page-pastel-olive: #d4f5b8;
+  --page-pastel-charcoal: #b8b8b8;
+  --page-pastel-beige: #f5e4c0;
+  --page-pastel-citrus: #f5dcb8;
+  --page-pastel-slate: #c4d4f5;
+  --page-pastel-clay: #f5c4b8;
+  --page-pastel-cloud: #e8f0f5;
+
+  --grid-size: 32px;
+}
+
+/* Light and Dark Theme Switching */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --page-white: #1e1e1e;
+    --page-manila: #3a3a3a;
+    --page-blue: #5399e2;
+    --page-pastel-yellow: #d3cfd9;
+    --page-pastel-pink: #d5b7a6;
+    --page-pastel-green: #4e5d4f;
+    --page-pastel-blue: #557f99;
+    --page-pastel-lilac: #9d76b9;
+    --page-pastel-rose: #9e7f7a;
+    --page-pastel-mint: #4f6f5a;
+    --page-pastel-sky: #4a5f7f;
+    --page-pastel-lemon: #d1d1b0;
+    --page-pastel-coral: #d18c6f;
+    --page-pastel-lavender: #8e7cb1;
+    --page-pastel-seafoam: #4f6f6f;
+    --page-pastel-apricot: #d18c6f;
+    --page-pastel-peach: #d19b6f;
+    --page-pastel-tea-green: #8b8e73;
+    --page-pastel-periwinkle: #7f8c9e;
+    --page-pastel-cotton-candy: #d18c7f;
+    --page-pastel-banana: #d1c290;
+    --page-pastel-cherry-blossom: #d18c9f;
+    --page-pastel-aqua: #3f5f6f;
+    --page-pastel-plum: #9e7fa6;
+    --page-pastel-papaya: #d18b5f;
+    --page-pastel-almond: #d19b6f;
+    --page-pastel-sunflower: #d1b77f;
+    --page-pastel-honeydew: #4e5d4f;
+    --page-pastel-moonstone: #4f6e7f;
+    --page-pastel-amber: #d18b6f;
+    --page-pastel-mauve: #d18c9f;
+    --page-pastel-cyan: #3f5f6f;
+    --page-pastel-cream: #9d7e6f;
+    --page-pastel-jade: #4e5d6e;
+    --page-pastel-caramel: #d18b5f;
+    --page-pastel-salmon: #9e7f6f;
+    --page-pastel-magenta: #d18c9f;
+    --page-pastel-denim: #5f6d8b;
+    --page-pastel-sand: #7f9f6f;
+    --page-pastel-rust: #d18b6f;
+    --page-pastel-lime: #a6c7a6;
+    --page-pastel-indigo: #6f7f9f;
+    --page-pastel-grape: #9e7fa6;
+    --page-pastel-cerulean: #3f5f6f;
+    --page-pastel-turquoise: #4f7f6f;
+    --page-pastel-powder-blue: #6f7f9f;
+    --page-pastel-forest: #4e6f5f;
+    --page-pastel-blush: #9e7f7a;
+    --page-pastel-olive: #6f7f9f;
+    --page-pastel-charcoal: #5f6f6f;
+    --page-pastel-beige: #7f9f7f;
+    --page-pastel-citrus: #9e7f9f;
+    --page-pastel-slate: #5f6d8b;
+    --page-pastel-clay: #7f9f9f;
+    --page-pastel-cloud: #3f5f7f;
+  }
+}
+
+/* Recolors images on the page with the current accent color. */
+.recolor-images img {
+  filter: var(--image-effect);
+}

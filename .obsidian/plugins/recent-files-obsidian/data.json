@@ -5,20 +5,40 @@
       "path": "04 - Permanent/01 - Core Knowledge/202501232033.md"
     },
     {
-      "basename": "00 Homepage",
-      "path": "00 - Maps of Content/00 Homepage.md"
+      "basename": "202501201918",
+      "path": "01 - Projects/202501201918.md"
     },
     {
       "basename": "202501220057",
       "path": "04 - Permanent/01 - Core Knowledge/202501220057.md"
     },
     {
-      "basename": "2025-01-23",
-      "path": "06 - Periodic/00 - Daily/2025-01-23.md"
+      "basename": "00 Homepage",
+      "path": "00 - Maps of Content/00 Homepage.md"
+    },
+    {
+      "basename": "202501221912",
+      "path": "03 - Resources/02 - Knowledge Repositories/02 - Facts/202501221912.md"
+    },
+    {
+      "basename": "202501242242",
+      "path": "04 - Permanent/01 - Core Knowledge/202501242242.md"
+    },
+    {
+      "basename": "202501090935",
+      "path": "03 - Resources/03 - External Input/202501090935.md"
+    },
+    {
+      "basename": "202501211118",
+      "path": "03 - Resources/03 - External Input/202501211118.md"
     },
     {
       "basename": "202501231045",
       "path": "04 - Permanent/01 - Core Knowledge/202501231045.md"
+    },
+    {
+      "basename": "2025-01-23",
+      "path": "06 - Periodic/00 - Daily/2025-01-23.md"
     },
     {
       "basename": "Placeholder",
@@ -35,10 +55,6 @@
     {
       "basename": "1-202501220044",
       "path": "04 - Permanent/02 - Roadmap Mastery/1-202501220044.jpg"
-    },
-    {
-      "basename": "202501090935",
-      "path": "03 - Resources/03 - External Input/202501090935.md"
     },
     {
       "basename": "Placeholder",
@@ -65,10 +81,6 @@
       "path": "02 - Meta Learning/Placeholder.md"
     },
     {
-      "basename": "202501211118",
-      "path": "03 - Resources/03 - External Input/202501211118.md"
-    },
-    {
       "basename": "2025-01-22",
       "path": "06 - Periodic/00 - Daily/2025-01-22.md"
     },
@@ -79,10 +91,6 @@
     {
       "basename": "202501211001",
       "path": "03 - Resources/02 - Knowledge Repositories/03 - Procedure/202501211001.md"
-    },
-    {
-      "basename": "202501221912",
-      "path": "03 - Resources/02 - Knowledge Repositories/02 - Facts/202501221912.md"
     },
     {
       "basename": "202501211432",
@@ -127,10 +135,6 @@
     {
       "basename": "202501201932",
       "path": "02 - Meta Learning/01 - Why/202501201932.md"
-    },
-    {
-      "basename": "202501201918",
-      "path": "01 - Projects/202501201918.md"
     },
     {
       "basename": "elegant_math",
@@ -195,10 +199,6 @@
     {
       "basename": "dead_banner",
       "path": "99 - Meta/Backgrounds/dead_banner.gif"
-    },
-    {
-      "basename": "Placeholder",
-      "path": "98 - Archives/Placeholder.md"
     }
   ],
   "omittedPaths": [],

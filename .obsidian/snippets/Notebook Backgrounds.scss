@@ -1,0 +1,154 @@
+/* Global Variables (in CSS, we use custom properties) */
+:root {
+    /* Base Pen Colors */
+    --pen-white: #edf1fc;
+    --pen-gray: #5f5d58;
+    --pen-black: #26241f;
+    --pen-red: #e14a49;
+    --pen-green: #15b64f;
+    --pen-blue: #3f76ed;
+    --pen-light-blue: #54b6f8;
+    --pen-purple: #9b4ff0;
+    --pen-yellow: #f1c232;
+    --pen-orange: #ff6f20;
+    --pen-teal: #008080;
+  
+    --neutral-pen-black: #272727;
+    --neutral-pen-black-trans: #27272722;
+  
+    /* Page Colors */
+    --page-white: #ffffff;
+    --page-manila: #f3deaf;
+    --page-blue: #3f76ed;
+    --page-dark-gray: #1e1e1e;
+    --page-dark-blue: #003b5c;
+    --page-dark-purple: #2c1f4c;
+    --page-light-gray: #f4f4f4;
+    --page-light-blue: #cce6ff;
+  
+    --grid-size: 32px;
+  }
+  
+  /* ---------------------------- Page Backgrounds ---------------------------- */
+  .page-background {
+    --page-color: var(--page-manila);
+    --accent-color: var(--pen-black);
+    --accent-color-trans: rgba(38, 36, 31, 0.15);
+    --image-effect: brightness(0) saturate(100%) invert(14%) sepia(19%) saturate(296%) hue-rotate(5deg) brightness(90%) contrast(96%);
+  }
+  
+  .page-manila {
+    background-color: var(--page-manila);
+    color: var(--pen-black);
+    color-scheme: light;
+  }
+  
+  .page-white {
+    background-color: var(--page-white);
+    color: var(--pen-black);
+    color-scheme: light;
+  }
+  
+  .page-blue {
+    background-color: var(--page-blue);
+    color: var(--pen-black);
+    color-scheme: light;
+  }
+  
+  .page-dark-gray {
+    background-color: var(--page-dark-gray);
+    color: var(--pen-white);
+    color-scheme: dark;
+  }
+  
+  .page-dark-blue {
+    background-color: var(--page-dark-blue);
+    color: var(--pen-yellow);
+    color-scheme: dark;
+  }
+  
+  .page-dark-purple {
+    background-color: var(--page-dark-purple);
+    color: var(--pen-teal);
+    color-scheme: dark;
+  }
+  
+  .page-light-gray {
+    background-color: var(--page-light-gray);
+    color: var(--pen-red);
+    color-scheme: light;
+  }
+  
+  .page-light-blue {
+    background-color: var(--page-light-blue);
+    color: var(--pen-green);
+    color-scheme: light;
+  
+  }
+  
+  /* ------------------------------- Pen Colors ------------------------------- */
+  .pen-color {
+    color: var(--pen-black);
+  }
+  
+  .pen-white {
+    color: var(--pen-white);
+  }
+  
+  .pen-blue {
+    color: var(--pen-blue);
+  }
+  
+  .pen-red {
+    color: var(--pen-red);
+  }
+  
+  .pen-green {
+    color: var(--pen-green);
+  }
+  
+  .pen-black {
+    color: var(--pen-black);
+  }
+  
+  .pen-gray {
+    color: var(--pen-gray);
+  }
+  
+  .pen-purple {
+    color: var(--pen-purple);
+  }
+  
+  .pen-yellow {
+    color: var(--pen-yellow);
+  }
+  
+  .pen-orange {
+    color: var(--pen-orange);
+  }
+  
+  .pen-teal {
+    color: var(--pen-teal);
+  }
+  
+  /* ------------------------------- Additional Pen Colors ------------------------------- */
+  .pen-light-blue {
+    color: var(--pen-light-blue);
+  }
+  
+  .pen-dark-gray {
+    color: var(--neutral-pen-black);
+  }
+  
+  .pen-dark-blue {
+    color: var(--pen-light-blue);
+  }
+  
+  .pen-dark-purple {
+    color: var(--pen-green);
+  }
+  
+  .pen-light-gray {
+    color: var(--pen-orange);
+  }
+  

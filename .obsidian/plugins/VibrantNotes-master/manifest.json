@@ -1,0 +1,12 @@
+{
+	"id": "vibrant-notes",
+	"name": "VibrantNotes",
+	"version": "0.1.0",
+	"description": "A plugin to dynamically manage pen and background color schemes for your Obsidian notes.",
+	"author": "Your Name",
+	"minAppVersion": "0.15.0",
+	"main": "main.js",
+	"css": "styles.css",
+	"fundingUrl":"tobefilled.com"
+  }
+  

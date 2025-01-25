@@ -1,34 +1,57 @@
 /* Define fonts and styles for math support */
 :root {
-    --font-math: "Iosevka", monospace;
+    --font-math: "CMU Serif", "Computer Modern", serif; /* Use Computer Modern fonts */
     --file-line-width: 1000px; /* Set global line width to 1000px */
+    --font-weight-light: 350; /* Set a lighter font weight */
 }
 
 /* General math text styling */
 .math {
     --font-text: var(--font-math);
     font-family: var(--font-math);
+    font-weight: var(--font-weight-light); /* Apply light font weight */
     --file-line-width: 1000px; /* Adjust line width for math content */
 }
 
+/* Editor math content styling */
 .math .cm-editor {
     --font-text: var(--font-math);
     font-family: var(--font-math);
+    font-weight: var(--font-weight-light); /* Apply light font weight */
 }
 
+/* Markdown preview math styling */
 .math .markdown-preview-view {
     --file-line-width: 1000px; /* Apply to math preview as well */
+    font-weight: var(--font-weight-light); /* Apply light font weight */
 }
 
 /* Math flashcard view */
 #math-flashcard-view {
     font-family: var(--font-math);
+    font-weight: var(--font-weight-light); /* Apply light font weight */
     --font-monospace-default: var(--font-math);
 }
 
 #math-flashcard-view code {
     font-family: var(--font-math);
+    font-weight: var(--font-weight-light); /* Apply light font weight */
 }
 
-/* Global line length adjustments for editor and preview */
+/* KaTeX customization: Inline and block math */
+.katex, .math, .katex-html {
+    font-family: var(--font-math);
+    font-weight: var(--font-weight-light); /* Match the light font weight */
+}
 
+/* Inline math */
+span.katex-mathml {
+    font-family: var(--font-math);
+    font-weight: var(--font-weight-light); /* Inline math font weight */
+}
+
+/* Display math (block equations) */
+.katex-display {
+    font-family: var(--font-math);
+    font-weight: var(--font-weight-light); /* Block math font weight */
+}
