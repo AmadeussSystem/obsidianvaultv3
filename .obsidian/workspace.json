@@ -11,12 +11,14 @@
             "id": "75bd07206beb9e3e",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "03 - Resources/01 - Learning  Materials/01 - DSA/Lecture 3/1-202501232033.pdf"
+                "file": "202501260246.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "1-202501232033"
+              "icon": "lucide-file",
+              "title": "202501260246"
             }
           },
           {
@@ -117,7 +119,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 323.5
+    "width": 323.5,
+    "collapsed": true
   },
   "right": {
     "id": "e2923ca1019dc92a",
@@ -236,7 +239,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -274,10 +277,17 @@
   },
   "active": "75bd07206beb9e3e",
   "lastOpenFiles": [
-    "03 - Resources/02 - Knowledge Repositories/02 - Facts/202501221912.md",
     "00 - Maps of Content/00 Homepage.md",
-    "01 - Projects/202501201918.md",
+    "202501260246.md",
+    "04 - Permanent/01 - Core Knowledge/202501220057.md",
+    "04 - Permanent/01 - Core Knowledge/202501231045.md",
+    "04 - Permanent/01 - Core Knowledge/202501232033.md",
+    "04 - Permanent/01 - Core Knowledge/202501242242.md",
     "03 - Resources/01 - Learning  Materials/01 - DSA/Lecture 3/1-202501232033.pdf",
+    "03 - Resources/01 - Learning  Materials/01 - DSA/Math_for_Programming_ER.pdf",
+    "03 - Resources/01 - Learning  Materials/01 - DSA/Cormen, Thomas H._ Leiserson, Charles E._ Rivest, Ronald L._ Ste - Introduction to Algorithms (2022) - libgen.li.pdf",
+    "01 - Projects/202501201918.md",
+    "03 - Resources/02 - Knowledge Repositories/02 - Facts/202501221912.md",
     "03 - Resources/01 - Learning  Materials/01 - DSA/202501252219.md",
     "![[03 - Resources/01 - Learning  Materials/01 - DSA/Lecture 2/1-202501232033.pdf.md",
     "![[03 - Resources/01 - Learning  Materials/01 - DSA/Lecture 2/1-202501232033.pdf 2.md",
@@ -292,12 +302,8 @@
     "03 - Resources/01 - Learning  Materials/01 - DSA/Lecture 2/theta notation.png",
     "03 - Resources/01 - Learning  Materials/01 - DSA/Lecture 2/Omega Notation.png",
     "03 - Resources/01 - Learning  Materials/01 - DSA/Lecture 1/1-202501232033.pdf",
-    "03 - Resources/01 - Learning  Materials/01 - DSA/Cormen, Thomas H._ Leiserson, Charles E._ Rivest, Ronald L._ Ste - Introduction to Algorithms (2022) - libgen.li.pdf",
     "03 - Resources/01 - Learning  Materials/01 - DSA/README.md",
-    "04 - Permanent/01 - Core Knowledge/202501232033.md",
-    "04 - Permanent/01 - Core Knowledge/202501242242.md",
     "01 - Projects/202501211432.md",
-    "03 - Resources/01 - Learning  Materials/01 - DSA/Lecture 7/JavaScript Codes/ternarySearch.js",
     "03 - Resources/01 - Learning  Materials/DSA/Lecture 2/Omega Notation.png",
     "03 - Resources/01 - Learning  Materials/DSA/Lecture 2/theta notation.png",
     "03 - Resources/01 - Learning  Materials/DSA/Lecture 2/1-202501232033.png",
@@ -306,8 +312,6 @@
     "03 - Resources/01 - Learning  Materials/Lecture 2/Omega Notation.png",
     "03 - Resources/01 - Learning  Materials/Lecture 2/1-202501232033.png",
     "03 - Resources/01 - Learning  Materials/README.md",
-    "04 - Permanent/01 - Core Knowledge/202501231045.md",
-    "04 - Permanent/01 - Core Knowledge/202501220057.md",
     "99 - Meta/attachments/1-202501232033.png",
     "04 - Permanent/01 - Core Knowledge/202501240908.md",
     "03 - Resources/03 - External Input/202501090935.md",
