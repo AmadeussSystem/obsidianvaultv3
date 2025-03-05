@@ -1,0 +1,7 @@
+{
+  "outputDirectory": "99 - Meta/attachments",
+  "alphaThreshold": 180,
+  "fileNameTemplate": "field-note-{date}-{shortId}",
+  "convertToGrayscale": true,
+  "useLuminosityForAlpha": true
+}
