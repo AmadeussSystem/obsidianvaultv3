@@ -4,11 +4,61 @@
     "type": "split",
     "children": [
       {
-        "id": "db020cc5e8841d77",
+        "id": "b63de21f7ffb693c",
         "type": "tabs",
         "children": [
           {
-            "id": "a6b3f8b731dd0a80",
+            "id": "dac2c9e3b3c6b9e1",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "09 - Scrble Ink/Scribble/suffix array/2025-03-13#01.png"
+              },
+              "icon": "lucide-image",
+              "title": "2025-03-13#01"
+            }
+          },
+          {
+            "id": "132607789c7ac96c",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "03 - Resources/01 - Learning  Materials/01 - DSA/1-202501232033.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "1-202501232033"
+            }
+          },
+          {
+            "id": "fadb7319aec6edb7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04 - Permanent/01 - Core Knowledge/Pointer In CPP/202501231045.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "202501231045"
+            }
+          },
+          {
+            "id": "9cb070eccb08e65c",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "09 - Scrble Ink/Scribble/DSA_New/2025-03-17#02.png"
+              },
+              "icon": "lucide-image",
+              "title": "2025-03-17#02"
+            }
+          },
+          {
+            "id": "29533a5def4720ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,7 +71,8 @@
               "title": "00 Homepage"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -210,8 +261,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -260,15 +311,36 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a6b3f8b731dd0a80",
+  "active": "29533a5def4720ab",
   "lastOpenFiles": [
-    "98 - Archives/Placeholder.md",
+    "09 - Scrble Ink/Scribble/DSA_New/2025-03-17#02.png",
+    "09 - Scrble Ink/Scribble/DSA_New/2025-03-17#03.png",
+    "09 - Scrble Ink/Scribble/DSA_New/2025-03-19 - Divide And Conquer#01.png",
+    "09 - Scrble Ink/Scribble/DSA_New/2025-03-19 - Divide And Conquer#02.png",
+    "09 - Scrble Ink/Scribble/DSA_New/2025-03-13#04.png",
+    "09 - Scrble Ink/Scribble/DSA_New/2025-03-13#02.png",
     "00 - Maps of Content/00 Homepage.md",
+    "04 - Permanent/01 - Core Knowledge/Pointer In CPP/202501231045.md",
+    "03 - Resources/01 - Learning  Materials/01 - DSA/1-202501232033.pdf",
+    "09 - Scrble Ink/Scribble/suffix array/2025-03-13#03.png",
+    "09 - Scrble Ink/Scribble/suffix array/2025-03-13#04.png",
+    "09 - Scrble Ink/Scribble/suffix array/2025-03-13#02.png",
+    "09 - Scrble Ink/Scribble/suffix array/2025-03-13#01.png",
+    "04 - Permanent/Topic list/ED-202503131612.excalidraw.md",
+    "04 - Permanent/Placeholder.md",
+    "04 - Permanent/02 - Roadmap Mastery/1-202501220044.jpg",
+    "06 - Periodic/00 - Daily/2025-03-13.md",
+    "04 - Permanent/Topic list",
+    "202503121241.md",
+    "04 - Permanent/01 - Core Knowledge/Pointer In CPP/202503052322.md",
+    "04 - Permanent/01 - Core Knowledge/Pointer In CPP/202501220057.md",
+    "Untitled.md",
+    "04 - Permanent/01 - Core Knowledge/Pointer In CPP/202501232033.md",
+    "04 - Permanent/01 - Core Knowledge/Pointer In CPP/202501242242.md",
+    "04 - Permanent/01 - Core Knowledge/Pointer In CPP",
+    "06 - Periodic/00 - Daily/2025-03-05.md",
+    "98 - Archives/Placeholder.md",
     "202501260246.md",
-    "04 - Permanent/01 - Core Knowledge/202501220057.md",
-    "04 - Permanent/01 - Core Knowledge/202501231045.md",
-    "04 - Permanent/01 - Core Knowledge/202501232033.md",
-    "04 - Permanent/01 - Core Knowledge/202501242242.md",
     "03 - Resources/01 - Learning  Materials/01 - DSA/Lecture 3/1-202501232033.pdf",
     "03 - Resources/01 - Learning  Materials/01 - DSA/Math_for_Programming_ER.pdf",
     "03 - Resources/01 - Learning  Materials/01 - DSA/Cormen, Thomas H._ Leiserson, Charles E._ Rivest, Ronald L._ Ste - Introduction to Algorithms (2022) - libgen.li.pdf",
@@ -277,36 +349,15 @@
     "03 - Resources/01 - Learning  Materials/01 - DSA/202501252219.md",
     "![[03 - Resources/01 - Learning  Materials/01 - DSA/Lecture 2/1-202501232033.pdf.md",
     "![[03 - Resources/01 - Learning  Materials/01 - DSA/Lecture 2/1-202501232033.pdf 2.md",
-    "03 - Resources/01 - Learning  Materials/01 - DSA/1-202501232033.pdf",
     "![[03 - Resources/01 - Learning  Materials/01 - DSA/Lecture 2/1-202501232033.pdf 1.md",
     "03 - Resources/01 - Learning  Materials/01 - DSA/Lecture 2/1-202501232033.pdf",
     "![[03 - Resources/01 - Learning  Materials/01 - DSA/Lecture 2",
     "![[03 - Resources/01 - Learning  Materials/01 - DSA",
     "![[03 - Resources/01 - Learning  Materials",
-    "![[03 - Resources",
-    "03 - Resources/01 - Learning  Materials/01 - DSA/Lecture 2/1-202501232033.png",
-    "03 - Resources/01 - Learning  Materials/01 - DSA/Lecture 2/theta notation.png",
-    "03 - Resources/01 - Learning  Materials/01 - DSA/Lecture 2/Omega Notation.png",
-    "03 - Resources/01 - Learning  Materials/01 - DSA/Lecture 1/1-202501232033.pdf",
     "03 - Resources/01 - Learning  Materials/01 - DSA/README.md",
     "01 - Projects/202501211432.md",
-    "03 - Resources/01 - Learning  Materials/DSA/Lecture 2/Omega Notation.png",
-    "03 - Resources/01 - Learning  Materials/DSA/Lecture 2/theta notation.png",
-    "03 - Resources/01 - Learning  Materials/DSA/Lecture 2/1-202501232033.png",
     "03 - Resources/01 - Learning  Materials/DSA/README.md",
-    "03 - Resources/01 - Learning  Materials/Lecture 2/theta notation.png",
-    "03 - Resources/01 - Learning  Materials/Lecture 2/Omega Notation.png",
-    "03 - Resources/01 - Learning  Materials/Lecture 2/1-202501232033.png",
     "03 - Resources/01 - Learning  Materials/README.md",
-    "99 - Meta/attachments/1-202501232033.png",
-    "04 - Permanent/01 - Core Knowledge/202501240908.md",
-    "03 - Resources/03 - External Input/202501090935.md",
-    "03 - Resources/03 - External Input/202501211118.md",
-    "06 - Periodic/00 - Daily/2025-01-23.md",
-    "04 - Permanent/Placeholder.md",
-    "01 - Projects/202501221304.md",
-    "06 - Periodic/Placeholder.md",
-    "06 - Periodic/00 - Daily/2025-01-21.md",
-    "05 - Fleeting/02 - Temporary Resources/202501210924.md"
+    "04 - Permanent/01 - Core Knowledge/202501240908.md"
   ]
 }

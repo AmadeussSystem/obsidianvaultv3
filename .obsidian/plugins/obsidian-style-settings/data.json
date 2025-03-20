@@ -6,5 +6,6 @@
   "ITS@@radius-s": 12,
   "ITS@@ITS-Sizes": "sizing-readable",
   "ITS@@file-f": "JetBrain Mono",
-  "ITS@@folder-f": "JetBrain Mono"
+  "ITS@@folder-f": "JetBrain Mono",
+  "obsidian-execute-code@@use-custom-output-color": false
 }
